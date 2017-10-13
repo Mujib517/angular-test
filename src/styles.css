@@ -31,17 +31,10 @@
 .menu{
     position: absolute;
     background-color:white;
-
-   
-}
-
-.menu ul{
-    list-style-type: none;
     border:1px solid gray;
-    
+    width:100px;
 }
 
-.menu ul li{
-    text-decoration: underline;
+.menu div{
     margin-top:10px;
 }

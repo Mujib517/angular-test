@@ -6,15 +6,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShapeComponent implements OnInit {
 
-  cls: string = "dotted-border";
+  cls: string = "solid-border";
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  toggleClass(): void {
-    console.log("done");
+  toggleShape(): void {
     this.cls = this.cls == "solid-border" ? "dotted-border" : "solid-border";
   }
 

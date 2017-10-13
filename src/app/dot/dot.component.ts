@@ -5,11 +5,14 @@ import { Component, OnInit } from '@angular/core';
   template: `<h1 class="cursor" (click)="toggleMenu()">&bull;</h1>
   
   <div class="menu" *ngIf="showMenu">
-     <ul>
-        <li *ngFor="let item of menu">  
+  
+     <div>
+     <b>Fonts</b>
+     <hr/>
+        <div *ngFor="let item of menu">  
           {{item}}
-        </li>
-     </ul>
+        </div>
+     </div>
   </div>
   `
 })
@@ -22,6 +25,6 @@ export class DotComponent {
   }
 
   constructor() {
-    this.menu = ["Home", "About", "Contact"]
+    this.menu = ["Font 1", "Font 2", "Font 3"]
   }
 }
