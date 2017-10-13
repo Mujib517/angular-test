@@ -27,3 +27,21 @@
 .bottom-list{
     margin-top:120px;
 }
+
+.menu{
+    position: absolute;
+    background-color:white;
+
+   
+}
+
+.menu ul{
+    list-style-type: none;
+    border:1px solid gray;
+    
+}
+
+.menu ul li{
+    text-decoration: underline;
+    margin-top:10px;
+}
