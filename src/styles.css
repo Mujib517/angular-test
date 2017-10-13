@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+.shape{
+    width:180px;
+    cursor: pointer;
+    height: 120px;
+}
+.solid-border {
+    border:2px solid gray;
+}
+
+.dotted-border{
+    border:2px dotted gray;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.shape-dot{
+    top:0;
+    width:60px;
+    float:left;
+}
+
+.top-list{
+    margin-top:-40px;
+}
+.bottom-list{
+    margin-top:120px;
+}

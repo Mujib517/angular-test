@@ -1,0 +1,24 @@
+<div class="shape" [ngClass]="cls" (click)="toggleClass()">
+    <div class="top-list" [hidden]="cls==='solid-border'">
+        <div class="shape-dot">
+            <app-dot></app-dot>
+        </div>
+        <div class="shape-dot">
+            <app-dot></app-dot>
+        </div>
+        <div class="shape-dot">
+            <app-dot></app-dot>
+        </div>
+    </div>
+    <div class="bottom-list" [hidden]="cls==='solid-border'">
+        <div class="shape-dot">
+            <app-dot></app-dot>
+        </div>
+        <div class="shape-dot">
+            <app-dot></app-dot>
+        </div>
+        <div class="shape-dot">
+            <app-dot></app-dot>
+        </div>
+    </div>
+</div>
